@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wheather-pro1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <button class="dot"><i class="fa-solid fa-ellipsis"></i></button>
+
+    <div class="color-container">
+        <div class="part-a">
+        <img  class="color-1" height="50px" width="50px" onclick="mytheme1()" src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?semt=ais_hybrid" >
+        <img  class="color" height="50px" width="50px" onclick="mytheme2()"  src="https://w0.peakpx.com/wallpaper/17/930/HD-wallpaper-shadow-in-the-water-water-moon-moonlight-tree-lale-night.jpg" >
+        <img  class="color" height="50px" width="50px" onclick="mytheme3()" style="color:black;" src="https://i.pinimg.com/originals/a2/fe/21/a2fe21da9ce7d1698f5b48cdb506c853.jpg" >
+        </div>
+
+        <div class="part-b">
+            <img class="color"  height="50px" width="50px" onclick="mytheme4()" style="background-color: bisque;" src="https://c4.wallpaperflare.com/wallpaper/949/647/781/bioshock-rapture-video-games-wallpaper-preview.jpg">
+            <img class="color" height="50px" width="50px"  onclick="mytheme5()" style="background-color: blueviolet;" src="https://c4.wallpaperflare.com/wallpaper/929/162/426/lights-sky-landscape-mountains-stars-hd-wallpaper-preview.jpg" >
+            <img class="color" height="50px" width="50px"  onclick="mytheme6()" style="background-color: darkblue;" src="https://i.pinimg.com/originals/3e/ba/05/3eba05b9023be9f106238aea8a250344.jpg" >
+        </div>
+
+        <div class="part-c">
+            
+            <img height="50px" width="50px" onclick="wallpaper1()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmpa-OPGCHyX-GPQRrwoR289o79lh94R-ERw&s">
+            <img height="50px" width="50px" onclick="wallpaper2()" src="https://img.freepik.com/premium-photo/beautiful-lakes-mountains-artwork_1194790-180.jpg?semt=ais_hybrid">
+            <img height="50px" width="50px" onclick="wallpaper3()" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg">
+        </div>
+
+     </div>
+
+
+
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name"
+            spellcheck="false">
+
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="wheather">
+
+            <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" 
+            class="wheather-image">
+
+            
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">India</h2>
+
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-droplet" id="wheather-icon1"></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+                <div class="details">
+                    <div class="col">
+                        <i class="fa-solid fa-wind"  id="wheather-icon2" ></i>
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>wind Speed</p>
+                        </div>
+                    </div>
+             
+                </div> 
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

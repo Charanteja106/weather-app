@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .color-container{
+        display: none;
+    
+        max-width: fit-content;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        flex-direction:column;
+        margin: 10px 100px 0px 50px;
+        background-color: rgb(213, 216, 219);  
+        box-shadow: 3px 3px 3px 3px ;
+     
+    
+    }
+    .color-container.active{
+        display: block;
+        position: absolute;
+    }
+    </style>
+
+</head>
+
+<body>
+    <div class="color-container">
+        <div class="part-a">
+        <img  class="color-1" height="50px" width="50px" onclick="mytheme1()" src="image1.png" >
+        <img  class="color" height="50px" width="50px" onclick="mytheme2()"  src="image2.png" >
+        <img  class="color" height="50px" width="50px" onclick="mytheme3()" style="color:black;" src="image3.png" >
+        </div>
+
+        <div class="part-b">
+            <img class="color"  height="50px" width="50px" onclick="mytheme4()" style="background-color: bisque;" src="image4.png">
+            <img class="color" height="50px" width="50px"  onclick="mytheme5()" style="background-color: blueviolet;" src="image5.png" >
+            <img class="color" height="50px" width="50px"  onclick="mytheme6()" style="background-color: darkblue;" src="image6.png" >
+        </div>
+
+        <div class="part-c">
+            
+            <img height="50px" width="50px" onclick="wallpaper1()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmpa-OPGCHyX-GPQRrwoR289o79lh94R-ERw&s">
+            <img height="50px" width="50px" onclick="wallpaper2()" src="https://img.freepik.com/premium-photo/beautiful-lakes-mountains-artwork_1194790-180.jpg?semt=ais_hybrid">
+            <img height="50px" width="50px" onclick="wallpaper3()" src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?semt=ais_hybrid">
+        </div>
+
+     </div>
+</body>
+</html>
